@@ -1,1 +1,7 @@
-This is the README file. I'm using this to learn to use Git and GitHub!!
+This is a simple Python 2.7 program that controls 8 LEDs via GPIO switches.
+
+LEDs are powered directly from the RPi and the RPi is rev2.
+
+The number of LEDs can be extended easily to 17 by using just the existing Rpi GPIO pins, more can be added with an expansion board which I've never done. Also, more LED behaviour functions can be added easily, just 'def'ine the function and then add to the random array at the end to be included in the options.
+
+Feel free to use as you please and Enjoy!
