@@ -75,7 +75,7 @@ def onoff(x):
         GPIO.output(pin6, not GPIO.input(pin6))
         GPIO.output(pin7, not GPIO.input(pin7))
         GPIO.output(pin8, not GPIO.input(pin8))
-        time.sleep(0.5)
+        time.sleep(tw)
         
 def report(cycle, count):
     print cycle, "cycle, step",count
